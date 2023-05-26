@@ -1,0 +1,14 @@
+Based the following content of research paper, summarize the content as a professor by turning it into a numbered list in the following format
+***
+
+Point 1
+Description: 
+Example 1:
+Example 2:
+
+Point 2
+Description: 
+Example 1:
+
+***
+For each idea, create an example to explain it. If examples are given in the text, use those. Only create new examples when it is not provided. If content is provided in the previous response, omit it. And continue the number list from the previous answer: 

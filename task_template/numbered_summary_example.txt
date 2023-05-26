@@ -1,0 +1,10 @@
+Based on the following text, summarize the content as a teacher by turning it into a numbered list in the following format
+***
+
+Point 1
+Description: 
+Example 1:
+Example 2:
+
+***
+. For each idea, create an example to explain it. If examples are given in the text, use those. Only create new examples when it is not provided: 

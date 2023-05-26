@@ -1,0 +1,20 @@
+Summary as a teacher:
+Principles of Prompting
+Write clear and specific instructions.
+Give the model time to think when appropriate.
+Iterative Prompt Development
+Developing a process to find the right prompt for your application.
+Capabilities of Large Language Models
+Summarizing: Condensing information into a concise form.
+Inferring: Drawing logical conclusions from given information.
+Transforming: Modifying text to fit specific needs.
+Expanding: Generating additional content based on existing text.
+Building a Custom Chatbot
+Instructions for creating a chatbot to collect orders for a pizza restaurant.
+Steps involved: Greeting the customer, collecting the order, determining pick-up or delivery, clarifying options, summarizing the order, checking for additional items, asking for address (if applicable), collecting payment.
+Conclusion and Next Steps
+Recap of the course's key learnings.
+Encouragement to explore and experiment with prompt development.
+Responsible use of large language models.
+Excitement about the field's potential and encouragement to spread knowledge and build impactful applications.
+Note: The content has been summarized and structured in a numbered list format for easier comprehension.

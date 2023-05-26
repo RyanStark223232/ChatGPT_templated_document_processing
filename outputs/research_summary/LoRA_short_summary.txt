@@ -1,0 +1,14 @@
+Based on the provided content of the research paper, here is a numbered list summarizing the key points:
+Point: Adapter layers introduce extra compute and latency.
+Description: Adapter layers have a small bottleneck dimension, limiting the additional parameters they add to the model. However, in large neural networks without model parallelism, using adapters can increase latency, especially in online inference scenarios with small batch sizes.
+Example 1: Inference on GPT-2 with adapters shows a noticeable increase in latency even with a small bottleneck dimension.
+Example 2: Sharding the model increases latency further due to additional synchronous GPU operations.
+Point: Optimizing the prompt directly is challenging.
+Description: Prefix tuning, a method to optimize the prompt in language models, faces difficulties in optimization and non-monotonic performance changes with trainable parameters. Reserving sequence length for adaptation reduces the available length for downstream tasks, potentially affecting prompt tuning performance.
+Example 1: Prefix tuning shows non-monotonic performance changes with varying trainable parameters.
+Point: Low-rank parameterized update matrices (LoRA) for weight adaptation.
+Description: LoRA is a method that constrains the update to weight matrices using low-rank decomposition, reducing the number of trainable parameters. It allows training a subset of pre-trained parameters and achieves similar expressiveness to full fine-tuning.
+Example 1: LoRA represents weight updates with a low-rank decomposition, combining pre-trained weights and adaptive matrices.
+Example 2: By setting the LoRA rank to the rank of pre-trained weight matrices, LoRA converges to the original model, while adapter-based methods converge to an MLP and prefix-based methods limit input sequence length.
+Point: Applying LoRA to the Transformer architecture.
+Description: LoRA can be applied to specific weight matrices in the

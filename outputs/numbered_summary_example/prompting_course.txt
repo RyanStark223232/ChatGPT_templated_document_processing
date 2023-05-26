@@ -1,0 +1,178 @@
+Summary as a teacher:
+Principle: Write clear and specific instructions.
+Description: Provide instructions that are clear and specific to guide the model towards the desired output.
+Example 1: Summarize the text delimited by triple backticks into a single sentence.
+Example 2: Generate a list of three made-up book titles along with their authors and genres, provided in JSON format with specific keys.
+Principle: Give the model time to think.
+Description: Reframe queries to allow the model to reason and provide accurate answers.
+Example 1: Perform the following actions: summarize the text, translate the summary into French, list each name in the French summary, and output a JSON object with specific keys.
+Example 2: Specify the steps required to complete a task, such as summarizing a text, translating it, and generating a structured output.
+Note: The examples provided in the text have been used to illustrate the principles and tactics for effective prompting with ChatGPT.
+
+Content Summary:
+Prompt Structure for Summarization:
+Description: The prompt provides a format to specify the output structure for the model.
+Example 1: French translation, names, and JSON output are requested.
+Example 2: The prompt uses angled brackets as delimiters instead of triple backticks.
+Instructing the Model to Reason Out Solutions:
+Description: In this prompt, the model is asked to determine if the student's solution is correct.
+Example 1: Math question and incorrect student's solution.
+Example 2: Model calculates its own solution and compares it to the student's solution to find the student incorrect.
+Model Limitations and Hallucinations:
+Description: The prompt highlights the limitations of large language models.
+Example: Model confabulates a description of a fictitious product name from a real toothbrush company.
+Reducing Hallucinations:
+Description: One tactic to reduce hallucinations is to ask the model to find relevant quotes from the text.
+Example: Tracing answers back to the source document can help reduce hallucinations.
+Iterative Prompt Development Process:
+Description: The process of iteratively refining prompts for better results.
+Example: Developing prompts by refining the idea, instructions, and giving the system enough time to think.
+Note: The summary is based on the given text and does not include the additional context from the video mentioned in the text.
+
+Content Summary:
+Point: Prompt Development is an iterative process.
+Description: Developing effective prompts requires iteration and refinement.
+Example: Writing prompts with specific length instructions.
+Point: Controlling output length.
+Description: Various ways to specify the desired length of the output.
+Examples:
+Using a specific word count (e.g., 50 words).
+Limiting the output to a certain number of sentences (e.g., 3 sentences).
+Specifying a character limit (e.g., 280 characters).
+Point: Modifying prompts for different purposes.
+Description: Adapting the prompt to focus on specific characteristics or details.
+Example: Adjusting the prompt for technical descriptions intended for furniture retailers.
+Point: Iterative refinement of prompts.
+Description: The process of refining prompts to achieve desired results.
+Example: Iterative development and improvement of prompts based on feedback.
+Point: Prompt complexity and advanced examples.
+Description: Handling more complex prompts and generating specific outputs.
+Example: Generating HTML-formatted text and tables from a prompt.
+Point: Summary of text using large language models.
+Description: Using large language models to summarize text efficiently.
+Example: Summarizing articles and other pieces of text for faster comprehension.
+Point: Implementation of text summarization using code.
+Description: Exploring code examples for programmatically summarizing text.
+Example: Using the OpenAI API and helper functions for text summarization.
+Note: The text provided in the prompt contains additional information, but the summary focuses on the key points relevant to a teacher.
+
+Summary as a teacher:
+Point 1:
+Description: Using a tool to summarize lengthy reviews on an e-commerce website.
+Example 1: Having a large volume of reviews and needing a way to quickly understand customer opinions.
+Example 2: Generating a short summary of a product review, such as a panda plush toy, in 30 words.
+Point 2:
+Description: Modifying the prompt to focus on specific aspects when creating a summary.
+Example 1: Giving feedback to the shipping department by emphasizing shipping and delivery aspects.
+Example 2: Giving feedback to the pricing department by focusing on price and perceived value.
+Point 3:
+Description: Extracting relevant information instead of summarizing it.
+Example 1: Extracting shipping-related information, such as the product arriving earlier than expected.
+Example 2: Extracting pricing-related information, such as the price being too high for the size.
+Point 4:
+Description: Using the summarization capability to streamline the reading of multiple reviews.
+Example: Creating a dashboard that generates short summaries of hundreds of reviews for efficient browsing.
+Point 5:
+Description: The convenience of using large language models for various analysis tasks.
+Example: Extracting sentiment from a product review or identifying emotions expressed by the writer.
+Point 6:
+Description: The flexibility to customize prompts for different classification tasks.
+Example 1: Classifying sentiment as positive or negative.
+Example 2: Identifying specific emotions expressed in a review, limited to a maximum of five items.
+Point 7:
+Description: The benefits of extracting richer information for customer understanding.
+Example: Extracting insights like customer delight or identifying any missing parts mentioned in a review.
+Note: The content has been summarized and may not include all the details from the original text.
+
+As a teacher, here's a numbered list summarizing the content:
+Information Extraction in NLP:
+Description: Information extraction is a part of Natural Language Processing (NLP) that involves extracting specific information from a piece of text.
+Example 1: Extracting the item purchased and the brand name from online shopping reviews.
+Example 2: Tracking positive or negative sentiment for specific items or manufacturers.
+Extracting Multiple Fields with a Single Prompt:
+Description: Instead of using multiple prompts to extract different information, it's possible to write a single prompt to extract multiple fields simultaneously.
+Example: Prompting to identify items, extract sentiment, check if the reviewer is expressing anger, determine the item purchased, and identify the company that made it.
+Inferring Topics from Text:
+Description: Large language models can infer topics from a long piece of text.
+Example: Using a prompt to determine five topics discussed in an article, such as a government survey, job satisfaction, NASA, etc.
+Indexing Topics and Generating Alerts:
+Description: Large language models can help index articles into different topics and generate alerts based on specific topics.
+Example: Using prompts to determine if an article covers topics like NASA, local government, engineering, employee satisfaction, and federal government, and generating alerts for relevant topics.
+Transforming Text:
+Description: Large language models can transform input text into different formats, such as translation, grammar corrections, or format conversions.
+Example: Translating text from English to Spanish, identifying the language of a given text, and performing multiple translations at once.
+Handling Formal and Informal Translations:
+Description: Language models can handle formal and informal translations based on the speaker's relationship to the listener.
+Example: Prompting for translations in both formal and informal forms, considering the appropriate tone based on the context.
+Note: The content provided includes excerpts from a larger text, and only the relevant parts have been summarized.
+
+As a teacher, I would summarize the content into a numbered list with examples as follows:
+Universal Translator
+Description: Building a universal translator for a multinational e-commerce company.
+Example 1: Looping through user messages in different languages and detecting the language.
+Example 2: Translating user messages into English and Korean.
+Tone Transformation
+Description: Using ChatGPT to produce different tones in writing.
+Example 1: Translating slang into a formal business letter.
+Example 2: Converting text formats from JSON to HTML.
+Spell Check and Grammar Correction
+Description: Leveraging ChatGPT to proofread and correct sentences.
+Example 1: Proofreading sentences with grammar and spelling errors.
+Example 2: Checking and correcting a review while maintaining the original meaning.
+Expanding Text
+Description: Generating longer text based on shorter prompts.
+Example 1: Creating a personalized email response using customer reviews and sentiment analysis.
+Example 2: Customizing email replies based on sentiment, thanking customers for positive or neutral reviews, and apologizing for negative reviews.
+Adjusting Temperature
+Description: Modifying the "temperature" parameter of the language model to control response variety.
+Example 1: Changing the temperature to increase or decrease randomness in model responses.
+Note: The examples provided in the list are based on the given text.
+
+Summary as a teacher:
+Point 1:
+Description: The concept of temperature in language models.
+Example 1: Given the prompt "My favorite food is," at temperature 0, the most likely next word predicted by the model is "pizza."
+Example 2: At a higher temperature, such as 0.7, the model may also suggest less likely words like "sushi" or "tacos," with a 5% chance of choosing "tacos."
+Point 2:
+Description: The effect of temperature on response predictability.
+Example: Using temperature 0 provides a reliable and predictable response, while higher temperatures yield more random outputs and a wider variety of responses.
+Point 3:
+Description: Using temperature variation for different applications.
+Example: For applications that require a predictable response, temperature 0 is recommended. However, for more creative use cases with diverse outputs, a higher temperature can be used.
+Point 4:
+Description: Introduction to building a custom chatbot using OpenAI's chat completions format.
+Example: Utilizing the OpenAI Python package and defining helper functions to facilitate multi-turn conversations and system instructions.
+Point 5:
+Description: Understanding the role of system messages in guiding the assistant's behavior.
+Example: The system message acts as a high-level instruction, whispering in the assistant's ear and influencing its responses without the user's awareness.
+Point 6:
+Description: Providing context in conversations for effective model responses.
+Example: Including earlier exchanges as context ensures the model can refer back to previous parts of the conversation, enhancing its understanding and generating appropriate responses.
+Point 7:
+Description: Building a custom chatbot called "OrderBot" for automating order collection at a pizza restaurant.
+Example: Developing a helper function to collect user prompts and assistant responses, creating a user interface to interact with the chatbot, and maintaining the context for continuous conversations.
+Point 8:
+Description: Running the UI to display and utilize the "OrderBot" chatbot.
+Example: The context includes a system message containing the menu, and the chatbot can be invoked repeatedly using the same context to handle user interactions and generate appropriate responses.
+
+Summary as a teacher:
+Principles of Prompting
+Write clear and specific instructions.
+Give the model time to think when appropriate.
+Iterative Prompt Development
+Developing a process to find the right prompt for your application.
+Capabilities of Large Language Models
+Summarizing: Condensing information into a concise form.
+Inferring: Drawing logical conclusions from given information.
+Transforming: Modifying text to fit specific needs.
+Expanding: Generating additional content based on existing text.
+Building a Custom Chatbot
+Instructions for creating a chatbot to collect orders for a pizza restaurant.
+Steps involved: Greeting the customer, collecting the order, determining pick-up or delivery, clarifying options, summarizing the order, checking for additional items, asking for address (if applicable), collecting payment.
+Conclusion and Next Steps
+Recap of the course's key learnings.
+Encouragement to explore and experiment with prompt development.
+Responsible use of large language models.
+Excitement about the field's potential and encouragement to spread knowledge and build impactful applications.
+Note: The content has been summarized and structured in a numbered list format for easier comprehension.
+
