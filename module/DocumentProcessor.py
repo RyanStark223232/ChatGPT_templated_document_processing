@@ -38,7 +38,7 @@ class DocumentProcessor:
         for task in search_files([template_dir], ['txt']):
             task_name = extract_taskname(task)
             output_dir = f"{out_dir}/{task_name}"
-            template = open(task, "r").read()
+            template = open(task, "r", encoding='utf-8', errors='ignore').read()
             print(f"Performing Task: {task_name}, {output_dir}")
 
             # Search for document files
