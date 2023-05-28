@@ -1,4 +1,4 @@
-# ChatGPT_templated_document_processing
+# Mass-Templated-Document-Processing
 
 This GitHub project provides a template-based solution for mass converting documents using ChatGPT and generating output files. It utilizes a document processor module to streamline the conversion process.
 
@@ -9,7 +9,7 @@ This GitHub project provides a template-based solution for mass converting docum
 1. Clone the repository to your local machine:
 
 ```bat
-git clone https://github.com/RyanStark223232/ChatGPT_templated_document_processing
+git clone https://github.com/RyanStark223232/Mass-Templated-Document-Processing/
 ```
 
 2. Install the required dependencies by running the following command:
