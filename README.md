@@ -2,12 +2,14 @@
 
 This GitHub project provides a template-based solution for mass converting documents using ChatGPT and generating output files. It utilizes a document processor module to streamline the conversion process.
 
+![Cover Image](/public/document_processor_art.png)
+
 ## How to Use
 
 1. Clone the repository to your local machine:
 
 ```bat
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/RyanStark223232/ChatGPT_templated_document_processing
 ```
 
 2. Install the required dependencies by running the following command:
@@ -20,7 +22,7 @@ pip install -r requirements.txt
 
   - LOCAL_API_GENERATE_URL: The URL for the local API endpoint used to generate responses with ChatGPT.
   - LOCAL_API_NEW_CHAT_URL (optional): The URL for the local API endpoint used to initiate a new chat conversation with ChatGPT. Leave it as None if not applicable for your API.
-  - OPENAI_KEY: Your OpenAI API key. If provided, will ignore the Local API
+  - OPENAI_KEY: Your OpenAI API key. If provided, will ignore the Local API. Leave it as `None` if you wanna use Local API.
   - TEMPLATE_DIR: The directory path where your task templates are stored. You may create new ones by referencing the structure of the existing ones
   - DOCUMENT_DIR: The directory path where your input documents are located. The folder name must match the name of the template.
   - OUTPUT_DIR: The directory path where the output files will be saved.
